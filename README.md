@@ -8,7 +8,7 @@
 <li align="left">Control Panel Menu</li>
 </ul>
 <h3 align="center" id="installation">Installation</h3>
-<p align="left">To install simply download this repo and extract the <code>Tools</code> folder into the root of your system drive. <code>C:\</code>. Once done simply double-click the <em>Add Tools Menu to Desktop Context Menu.reg</em> file and you're done.</p>
+<p align="left">To install simply download this repo and extract the <code>Tools</code> folder into the root of your system drive. <code>C:\</code>. Once done simply double-click the <code>Add Tools Menu to Desktop Context Menu.reg</code> file and you're done.</p>
 <br />
-<p align="left">To remove simply double-click the <em>Remove Tools Menu from Desktop Context Menu.reg</em> file.</p>
+<p align="left">To remove simply double-click the <code>Remove Tools Menu from Desktop Context Menu.reg</code> file.</p>
 </ul>
