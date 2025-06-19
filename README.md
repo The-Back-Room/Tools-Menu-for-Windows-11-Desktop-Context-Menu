@@ -1,11 +1,8 @@
+<img width="35%" src="Previews/0uLvdoetXF.png" /> <img width="35%" src="Previews/u7AmsWaw9t.png" /><br />
+<img width="35%" src="Previews/zQGJDKer7L.png" /> <img width="35%" src="Previews/Dqnb1pLaD4.png" />
+
 # Tools Menu for Windows 11 Desktop Context Menu
 This menu grants quick use of some useful tools for desktop customizers.
-
-![Preview][Preview1]
-![Preview][Preview2]
-![Preview][Preview3]
-![Preview][Preview4]
-![Preview][Preview5]
 
 ## Supported Tools
 Here is a list of currently supported tools. *(This list is NOT final. More tools will be added over time.)*
@@ -31,11 +28,3 @@ For this to work as intended *(without having to edit the menu paths)*, you will
 **Note**: Do NOT edit anything in the `Scripts\res` subdirectory unless you know what you are doing. That is reserved for command functions that require a seperate batch file and will break if modified.
 
 The included program subfolders include shortcuts to the downloads for each program that this menu supports.
-
-
-
-[Preview1]: Previews/0uLvdoetXF.png
-[Preview2]: Previews/5UrAFehhQu.png
-[Preview3]: Previews/u7AmsWaw9t.png
-[Preview4]: Previews/zQGJDKer7L.png
-[Preview5]: Previews/Dqnb1pLaD4.png
