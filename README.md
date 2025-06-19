@@ -1,8 +1,5 @@
 <h1 align="center" id="tools-menu-for-windows-11-desktop-context-menu">Tools Menu for Windows 11 Desktop Context Menu</h1>
-<p align="center">This menu grants quick access to some useful tools for desktop customizers.</p>
-<br /><br />
 <div align="center"><img width="90%" src="Previews/mTug17j3Pl.png" /></div>
-<br /><br />
 <h2 align="center" id="supported-tools">Tools</h2>
 <ul align="left">
 <li align="left">Restart Explorer</li>
@@ -10,7 +7,6 @@
 <li align="left">Classic Personlization Menu</li>
 <li align="left">Control Panel Menu</li>
 </ul>
-<br /><br />
 <h3 align="center" id="installation">Installation</h3>
 <p align="left">To install simply download this repo and extract the <code>Tools</code> folder into the root of your system drive. <code>C:\</code>. Once done simply double-click the <em>Add Tools Menu to Desktop Context Menu.reg</em> file and you're done.</p>
 <br />
