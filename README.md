@@ -28,5 +28,5 @@
 <h2 align="center" id="important-notes">Important Notes</h2>
 <ul align="left">
 <li align="left">Do NOT edit anything in the <code>Scripts\res</code> subdirectory unless you know what you are doing. That is reserved for command functions that require a seperate batch file and will break if modified.</li>
-<li align="left">The included program subfolders include shortcuts to the downloads for each program that this menu supports.</li>
+<li align="left">Program installation folders are included in the <em>src</em> subdirectory for ease of management. The program installation folders include shortcuts to the downloads for each program that this menu supports.</li>
 </ul>
