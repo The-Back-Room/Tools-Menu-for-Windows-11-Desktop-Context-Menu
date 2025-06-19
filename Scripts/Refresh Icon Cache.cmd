@@ -1,6 +1,6 @@
 @echo off
 
-set BATCH_PATH="C:\Tools\Scripts\res\Refresh Icon Cache.bat"
+set BATCH_PATH="res/Refresh Icon Cache.bat"
 
 title Asking for administrator access
 mode CON COLS=41 LINES=7

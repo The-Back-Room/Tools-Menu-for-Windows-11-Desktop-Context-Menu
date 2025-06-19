@@ -1,6 +1,7 @@
 @echo off
 mode CON COLS=41 LINES=7
 color 1F
+title Applying
 echo :::::::::::::::::::::::::::::::::::::::::
 echo ::         Restarting explorer         ::
 echo :::::::::::::::::::::::::::::::::::::::::
