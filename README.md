@@ -34,8 +34,8 @@ The included program subfolders include shortcuts to the downloads for each prog
 
 
 
-[Preview1]: 0uLvdoetXF.png
-[Preview2]: 5UrAFehhQu.png
-[Preview3]: u7AmsWaw9t.png
-[Preview4]: zQGJDKer7L.png
-[Preview5]: Dqnb1pLaD4
+[Preview1]: Previews\0uLvdoetXF.png
+[Preview2]: Previews\5UrAFehhQu.png
+[Preview3]: Previews\u7AmsWaw9t.png
+[Preview4]: Previews\zQGJDKer7L.png
+[Preview5]: Previews\Dqnb1pLaD4
