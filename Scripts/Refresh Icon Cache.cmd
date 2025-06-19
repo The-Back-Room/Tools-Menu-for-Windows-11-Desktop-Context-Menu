@@ -2,9 +2,9 @@
 
 set BATCH_PATH="res/Refresh Icon Cache.bat"
 
-title Asking for administrator access
 mode CON COLS=41 LINES=7
 color 1F
+title Asking for administrator access
 echo :::::::::::::::::::::::::::::::::::::::::
 echo ::   Requesting administrator access   ::
 echo :::::::::::::::::::::::::::::::::::::::::
