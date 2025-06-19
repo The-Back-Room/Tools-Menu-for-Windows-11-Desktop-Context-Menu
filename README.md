@@ -1,5 +1,5 @@
-<h1  align="center" id="tools-menu-for-windows-11-desktop-context-menu">Tools Menu for Windows 11 Desktop Context Menu</h1>
-<p>This menu grants quick use of some useful tools for desktop customizers.</p>
+<h1 align="center" id="tools-menu-for-windows-11-desktop-context-menu">Tools Menu for Windows 11 Desktop Context Menu</h1>
+<p align="center">This menu grants quick use of some useful tools for desktop customizers.</p>
 <img width="35%" src="Previews/0uLvdoetXF.png" /> <img width="35%" src="Previews/u7AmsWaw9t.png" /> <img width="35%" src="Previews/zQGJDKer7L.png" /> <img width="35%" src="Previews/Dqnb1pLaD4.png" />
 <br /><br />
 <h2 align="left" id="supported-tools">Supported Tools</h2>
