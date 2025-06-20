@@ -2,7 +2,7 @@
     <h1>Tools and Utilities Context Menus</h1>
     <p>for Windows 10 and 11</p>
     <br />
-    <a href="Previews/c25EEQZmeQ.png" width="45%"> <a href="Previews/jgrycwDiQ8.png" width="45%">
+    <img src="Previews/c25EEQZmeQ.png" width="45%"> <img src="Previews/jgrycwDiQ8.png" width="45%">
 </div>
 
 ### Tools Menu
