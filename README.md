@@ -9,7 +9,7 @@
 </ul>
 <color="blue"><h4 align="left" id="utilities-menu">Utilities Menu</h4></color>
 <ul align="left">
-<li align="left">h3 align="left" id="kill-not-responding-tasks-sub-menu">Kill Not Responding Tasks</li>
+<li align="left"><h3 align="left" id="kill-not-responding-tasks-sub-menu">Kill Not Responding Tasks</li>
 <ul align="left">
 <li align="left">Refresh Icon Cache</li>
 <li align="left">Restart Explorer</li>
