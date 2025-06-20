@@ -1,5 +1,5 @@
 <h1 align="center" id="tools-menu-for-windows-11-desktop-context-menu">Tools Menu for Windows 11 Desktop Context Menu</h1>
-<div align="center"><img width="90%" src="Previews/mTug17j3Pl.png" /></div>
+<div align="center"><img width="45%" src="Previews/c25EEQZmeQ.png" /> <img width="45%" src="Previews/jgrycwDiQ8.png" /></div>
 <h2 align="center" id="supported-tools">Tools</h2>
 <ul align="left">
 <li align="left">Restart Explorer</li>
