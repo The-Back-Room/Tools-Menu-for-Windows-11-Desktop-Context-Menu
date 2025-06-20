@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Tools\Shell\005]
+"Icon"="shell32.dll,-3"
+"MUIVerb"="MicaForEveryone"
+"Position"="Top"
+"Extended"=-
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Tools\Shell\005\Shell\Start MicaForEveryone]
+"Icon"="shell32.dll,-153"
+"MUIVerb"="Start MicaForEveryone"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Tools\Shell\005\Shell\Start MicaForEveryone\command]
+@="\"C:\\Tools\\Scripts\\Start MicaForEveryone.cmd\""
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Tools\Shell\005\Shell\Stop MicaForEveryone]
+"Icon"="shell32.dll,-153"
+"MUIVerb"="Stop MicaForEveryone"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Tools\Shell\005\Shell\Stop MicaForEveryone\command]
+@="\"C:\\Tools\\Scripts\\Stop MicaForEveryone.cmd\""
