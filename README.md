@@ -35,10 +35,6 @@
 <li align="left">Notification Area Icons</li>
 <li align="left">Screen Saver Settings</li>
 </ul>
-<color="red"<h3 align="center" id="tip">Note</h3>
-<em><p align="center">The <code>Explorer 7</code>, <code>DWMBlurGlass</code>, and <code>Old New Explorer</code> options are called on from subdirectories located inside the Tools/src subfolder. Files have been included for compatibility; however, you may need to update them for your own usage.<br />
-The <code>MicaForEveryone</code> menu relies on the MSI variation that is installed in a system location, as such it doesn't specify the location but instead the <code>MicaForEveryone.App.exe</code> process created by the MSI installation method. For this reason, manual installations of MicaForEveryone might not be compatible with this menu.<br />
-Due to Windows context menu limitations, addons may remove entrees from some of the sub menus in order to make space. Keep in mind that if you want to use all of the addons with both menus the Theme Settings option in the Classic Personalization sub menu may disappear.</p></em>
 <h3 align="left" id="installation">Installation</h3>
 <ul align="left">
 <li align="left">To install simply download the archive and extract the <code>Tools</code> folder into the root of your system drive; <code>C:\</code>.</li>
@@ -53,4 +49,7 @@ Due to Windows context menu limitations, addons may remove entrees from some of 
 <li align="left">To remove the addons without removing the Tools or Utilities menus, simply double-click the registry file to remove whichever addons you want to remove.</li>
 </ul>
 <p align="left"><b>Download</b>: <a href="https://github.com/The-Back-Room/Tools-and-Utilities-Menus-for-Windows-11-Desktop-Context-Menu/archive/refs/heads/main.zip">Download ZIP</a></p>
-</ul>
+<h3 align="center" id="tip">Note</h3>
+<em><p align="center">The <code>Explorer 7</code>, <code>DWMBlurGlass</code>, and <code>Old New Explorer</code> options are called on from subdirectories located inside the Tools/src subfolder. Files have been included for compatibility; however, you may need to update them for your own usage.<br />
+The <code>MicaForEveryone</code> menu relies on the MSI variation that is installed in a system location, as such it doesn't specify the location but instead the <code>MicaForEveryone.App.exe</code> process created by the MSI installation method. For this reason, manual installations of MicaForEveryone might not be compatible with this menu.<br />
+Due to Windows context menu limitations, addons may remove entrees from some of the sub menus in order to make space. Keep in mind that if you want to use all of the addons with both menus the Theme Settings option in the Classic Personalization sub menu may disappear.</p></em>
