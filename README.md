@@ -46,7 +46,7 @@
 <div align="center">
     <details>
         <summary>
-            <h2>Important Note</h2>
+            <h2>Important Notes</h2>
         </summary>
         <em>The <code>Explorer 7</code>, <code>DWMBlurGlass</code>, and <code>Old New Explorer</code> options are called on from subdirectories located inside the <code>Tools/src</code> subfolder. Files have been included for compatibility; however, you may need to update them for your own usage.
         <br /><br />The <code>MicaForEveryone</code> menu relies on the <code>.msi</code> variation that is installed in a system location. As such it doesn't specify the location; but instead, targets the <code>MicaForEveryone.App.exe</code> process created by the <code>.msi</code> installation method. For this reason, manual installations of <code>MicaForEveryone</code> might not be compatible with this menu.
