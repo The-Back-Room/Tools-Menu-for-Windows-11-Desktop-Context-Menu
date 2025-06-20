@@ -1,25 +1,25 @@
 # Tools and Utilities Context Menus
 for Windows 10 and 11
 
-![](Previews/c25EEQZmeQ.png | width=45%)
-![](Previews/jgrycwDiQ8.png | width=45%)
+![](Previews/c25EEQZmeQ.png | width=45)
+![](Previews/jgrycwDiQ8.png | width=45)
 
 ### Tools Menu
 - Classic Personlization Menu
-- - Theme Settings
-- - Color and Appearance
-- - Desktop Background
-- - Desktop Icon Settings
-- - Mouse Pointers
-- - Notification Area Icons
-- - Screen Saver Settings
+  - Theme Settings
+  - Color and Appearance
+  - Desktop Background
+  - Desktop Icon Settings
+  - Mouse Pointers
+  - Notification Area Icons
+  - Screen Saver Settings
 - Control Panel Menu
-- - Category
-- - All Items
-- - All Tasks (God Mode)
+  - Category
+  - All Items
+  - All Tasks (God Mode)
 - MicaForEveryone Menu | Addon
-- - Start MicaForEveryone
-- - Stop MicaForEveryone
+  - Start MicaForEveryone
+  - Stop MicaForEveryone
 - Old New Explorer | Addon
 - DWMBlurGlass | Addon
 
@@ -31,9 +31,9 @@ for Windows 10 and 11
 
 ## Installation
 - To install simply download the archive and extract the `Tools` folder into the root of your system drive; `C:\`.
-- - To add the Tools menu to your desktop context menu, simply double-click the `Add Tools Menu to Desktop Context Menu.reg` file.
-- - To add the Utilities menu to your desktop context menu, simply double-click the `Add Utilites Menu to Desktop Context Menu.reg` file to add the Utilities.
-- - To install the addons, simply double-click the registry file to add whichever addons you want.
+  - To add the Tools menu to your desktop context menu, simply double-click the `Add Tools Menu to Desktop Context Menu.reg` file.
+  - To add the Utilities menu to your desktop context menu, simply double-click the `Add Utilites Menu to Desktop Context Menu.reg` file to add the Utilities.
+  - To install the addons, simply double-click the registry file to add whichever addons you want.
 
 ## Uninstallation
 - To remove the Tools menu simply double-click the `Remove Tools Menu from Desktop Context Menu.reg` file.
