@@ -2,8 +2,26 @@
 <div align="center"><img width="45%" src="Previews/c25EEQZmeQ.png" /> <img width="45%" src="Previews/jgrycwDiQ8.png" /></div>
 <h4 align="left" id="tools-menu">Tools Menu</h4>
 <li align="left">Classic Personlization Menu</li>
+<ul align="left">
+<li align="left">Theme Settings</li>
+<li align="left">Color and Appearance</li>
+<li align="left">Desktop Background</li>
+<li align="left">Desktop Icon Settings</li>
+<li align="left">Mouse Pointers</li>
+<li align="left">Notification Area Icons</li>
+<li align="left">Screen Saver Settings</li>
+</ul>
 <li align="left">Control Panel Menu</li>
+<ul align="left">
+<li align="left">Category</li>
+<li align="left">All Items</li>
+<li align="left">All Tasks (God Mode)</li>
+</ul>
 <li align="left">MicaForEveryone Menu | Addon</li>
+<ul align="left">
+<li align="left">Start MicaForEveryone</li>
+<li align="left">Stop MicaForEveryone</li>
+</ul>
 <li align="left">Old New Explorer | Addon</li>
 <li align="left">DWMBlurGlass | Addon</li>
 </ul>
@@ -13,27 +31,6 @@
 <li align="left">Refresh Icon Cache</li>
 <li align="left">Restart Explorer</li>
 <li align="left">Restart Explorer 7 | Addon</li>
-</ul>
-<h4 align="left" id="micaforeveryone-sub-menu">MicaForEveryone Sub Menu</h4>
-<ul align="left">
-<li align="left">Start MicaForEveryone</li>
-<li align="left">Stop MicaForEveryone</li>
-</ul>
-<h4 align="left" id="control-panel-sub-menu">Control Panel Sub Menu</h4>
-<ul align="left">
-<h3 align="left" id="category-sub-menu">Category</li>
-<li align="left">All Items</li>
-<li align="left">All Tasks (God Mode)</li>
-</ul>
-<h4 align="left" id="classic-personnalization-sub-menu">Classic Personalization Sub Menu</h4>
-<ul align="left">
-<li align="left">Theme Settings</li>
-<li align="left">Color and Appearance</li>
-<li align="left">Desktop Background</li>
-<li align="left">Desktop Icon Settings</li>
-<li align="left">Mouse Pointers</li>
-<li align="left">Notification Area Icons</li>
-<li align="left">Screen Saver Settings</li>
 </ul>
 <h3 align="left" id="installation">Installation</h3>
 <ul align="left">
