@@ -1,14 +1,13 @@
 <h1 align="center" id="tools-menu-for-windows-11-desktop-context-menu">Tools Menu for Windows 11 Desktop Context Menu</h1>
 <div align="center"><img width="45%" src="Previews/c25EEQZmeQ.png" /> <img width="45%" src="Previews/jgrycwDiQ8.png" /></div>
-<h2 align="center" id="supported-tools">Tools Menu</h2>
+<h3 align="center" id="supported-tools">Tools Menu</h3>
 <li align="left">Classic Personlization Menu</li>
 <li align="left">Control Panel Menu</li>
 <li align="left">MicaForEveryone Menu - Addon</li>
 <li align="left">Old New Explorer - Addon</li>
 <li align="left">DWMBlurGlass - Addon</li>
 </ul>
-<br />
-<h2 align="center" id="supported-tools">Utilities Menu</h2>
+<h3 align="center" id="supported-tools">Utilities Menu</h3>
 <li align="left">Kill Not Responding Tasks</li>
 <li align="left">Refresh Icon Cache</li>
 <li align="left">Restart Explorer</li>
