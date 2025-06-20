@@ -1,8 +1,8 @@
 # Tools and Utilities Context Menus
 for Windows 10 and 11
 
-![](Previews/c25EEQZmeQ.png){width=45%}
-![](Previews/jgrycwDiQ8.png){width=45%}
+![](<img src="Previews/c25EEQZmeQ.png" width="45%">)
+![](<img src="Previews/jgrycwDiQ8.png" width="45%">)
 
 ### Tools Menu
 - Classic Personlization Menu
