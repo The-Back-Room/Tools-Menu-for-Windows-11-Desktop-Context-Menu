@@ -6,6 +6,7 @@
 </div>
 
 ### Tools Menu
+
 - Classic Personlization Menu
   - Theme Settings
   - Color and Appearance
@@ -25,18 +26,21 @@
 - DWMBlurGlass | Addon
 
 ### Utilities Menu
+
 - Kill Not Responding Tasks
 - Refresh Icon Cache
 - Restart Explorer
 - Restart Explorer 7 | Addon
 
 ## Installation
+
 - To install simply download the archive and extract the `Tools` folder into the root of your system drive; `C:\`.
   - To add the Tools menu to your desktop context menu, simply double-click the `Add Tools Menu to Desktop Context Menu.reg` file.
   - To add the Utilities menu to your desktop context menu, simply double-click the `Add Utilites Menu to Desktop Context Menu.reg` file to add the Utilities.
   - To install the addons, simply double-click the registry file to add whichever addons you want.
 
 ## Uninstallation
+
 - To remove the Tools menu simply double-click the `Remove Tools Menu from Desktop Context Menu.reg` file.
 - To remove the Utilities menu simply double-click the `Remove Utilities Menu from Desktop Context Menu.reg` file.
 - To remove the addons without removing the Tools or Utilities menus, simply double-click the registry file to remove whichever addons you want to remove.
