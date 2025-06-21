@@ -7,4 +7,4 @@ Windows Registry Editor Version 5.00
 "CommandFlags"=dword:00000020
 
 [HKEY_CLASSES_ROOT\DesktopBackground\Shell\Tools\Shell\006\command]
-@="\"C:\\Tools\\src\\DWMBlurGlass\\DWMBlurGlass.exe\""
+@="\"C:\\Tools\\DWMBlurGlass\\DWMBlurGlass.exe\""

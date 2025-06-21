@@ -1,6 +1,6 @@
 @echo off
 
-set INSTALL_DIR=C:\Tools\src\Explorer7
+set INSTALL_DIR=C:\Tools\Explorer7
 
 mode CON COLS=45 LINES=7
 color 1F

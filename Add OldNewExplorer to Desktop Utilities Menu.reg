@@ -6,4 +6,4 @@ Windows Registry Editor Version 5.00
 "Position"="Top"
 
 [HKEY_CLASSES_ROOT\DesktopBackground\Shell\Tools\Shell\007\command]
-@="\"C:\\Tools\\src\\OldNewExplorer\\OldNewExplorerCfg.exe\""
+@="\"C:\\Tools\\OldNewExplorer\\OldNewExplorerCfg.exe\""
