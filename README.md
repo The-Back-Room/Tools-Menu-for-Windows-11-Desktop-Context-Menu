@@ -54,6 +54,6 @@
         </summary>
         <em>The <code>Explorer 7</code>, <code>DWMBlurGlass</code>, and <code>Old New Explorer</code> options are called on from subdirectories located inside the <code>Tools</code> folder. Files have been included for compatibility; however, you may need to update them for your own usage.
         <br /><br />The <code>MicaForEveryone</code> menu relies on the <code>.msi</code> variation that is installed in a system location. As such it doesn't specify the location; Instead, it targets the <code>MicaForEveryone.App.exe</code> process created by the <code>.msi</code> installation method. For this reason, manual installations of <code>MicaForEveryone</code> might not be compatible with this menu.
-        <br /><br />Due to Windows context menu limitations, addons may remove entrees from some of the sub menus in order to make space. Keep in mind that if you want to use all of the addons with both menus the Theme Settings option in the Classic Personalization sub menu may disappear.</em>
+        <br /><br />Due to Windows context menu limitations, addons may remove entrees from some of the sub menus in order to make space.</em>
     </details>
 </div>
