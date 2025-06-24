@@ -1,15 +1,18 @@
 @echo off
 mode CON COLS=45 LINES=7
-mode CON COLS=45 LINES=7
 color 1F
-wmic process where "name='MicaForEveryone.App.exe'" get ProcessID | find /i "ProcessId" > nul
+title Applying
+echo :::::::::::::::::::::::::::::::::::::::::::::
+echo ::          Stopping Safely Icon           ::
+echo :::::::::::::::::::::::::::::::::::::::::::::
+wmic process where "name='safelyicon.exe'" get ProcessID | find /i "ProcessId" > nul
 
 IF ERRORLEVEL 1 (
 	GOTO FAILED
 )
 	
 IF ERRORLEVEL 2 (
-	start /min MicaForEveryone
+	TASKKILL /F /IM safelyicon.exe >nul
 	GOTO SUCCESS
 )
 

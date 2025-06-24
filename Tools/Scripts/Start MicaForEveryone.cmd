@@ -5,7 +5,7 @@ title Applying
 echo :::::::::::::::::::::::::::::::::::::::::::::
 echo ::        Starting MicaForEveryone         ::
 echo :::::::::::::::::::::::::::::::::::::::::::::
-start MicaForEveryone
+start /min MicaForEveryone
 echo :::::::::::::::::::::::::::::::::::::::::::::
 echo ::                 Success                 ::
 echo :::::::::::::::::::::::::::::::::::::::::::::
