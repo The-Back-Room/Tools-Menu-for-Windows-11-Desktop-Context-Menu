@@ -1,9 +1,9 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Tools\Shell\007]
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Tools\Shell\Old New Explorer]
 "Icon"="shell32.dll,-3"
 "MUIVerb"="Old New Explorer"
 "Position"="Top"
 
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Tools\Shell\007\command]
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Tools\Shell\Old New Explorer\command]
 @="\"C:\\Tools\\OldNewExplorer\\OldNewExplorerCfg.exe\""

@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\Shell\Stop Safely Icon]
+"Icon"="safelyicon.exe"
+"MUIVerb"="Stop Safely Icon"
+"CommandFlags"=dword:00000020
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\Shell\Stop Safely Icon\command]
+@="\"C:\\Tools\\Scripts\\Stop Safely Icon.cmd\""

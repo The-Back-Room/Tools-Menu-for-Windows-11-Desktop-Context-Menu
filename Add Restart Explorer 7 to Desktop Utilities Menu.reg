@@ -1,8 +1,8 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\Shell\004]
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\Shell\Restart Explorer 7]
 "Icon"="explorer.exe"
 "MUIVerb"="Restart Explorer 7"
 
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\Shell\004\command]
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Utilities\Shell\Restart Explorer 7\command]
 @="\"C:\\Tools\\Scripts\\Restart Explorer 7.cmd\""
