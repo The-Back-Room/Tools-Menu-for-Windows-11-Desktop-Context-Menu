@@ -11,7 +11,7 @@ echo :::::::::::::::::::::::::::::::::::::::::::::
 echo.
 echo Stopping exoplorer.exe and starting:
 echo - %INSTALL_DIR%\explorer.exe
-timeout /t 3 >nul
+timeout /t 5 >nul
 taskkill /F /IM explorer.exe >nul
 start %INSTALL_DIR%\explorer.exe
 echo :::::::::::::::::::::::::::::::::::::::::::::
