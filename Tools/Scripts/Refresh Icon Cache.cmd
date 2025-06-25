@@ -22,9 +22,9 @@ IF ERRORLEVEL 1 (
         TASKKILL /F /IM explorer.exe >NUL
         ie4uinit.exe -show
         TIMEOUT /T 2 >NUL
-        DEL /A /F /Q "%ICONCACHE%" >NUL
-        DEL /A /F /Q "%ICONCACHE_X%" >NUL
-        DEL /A /F /Q "%THUMBCACHE%" >NUL
+        IF EXIST "%ICONCACHE%" DEL /A /F /Q "%ICONCACHE%" >NUL
+        IF EXIST "%ICONCACHE_X%" DEL /A /F /Q "%ICONCACHE_X%" >NUL
+        IF EXIST "%THUMBCACHE%" DEL /A /F /Q "%THUMBCACHE%" >NUL
         START explorer.exe
         GOTO SUCCESS
 :FAILED
