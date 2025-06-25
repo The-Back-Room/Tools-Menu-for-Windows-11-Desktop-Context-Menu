@@ -1,6 +1,8 @@
 Tools and Utilities for Windows 11 Desktop Context Menus
 ====================================    
 
+![Utilities Menu][Utilities_Preview]
+
 ### Tools Menu
 
 - Classic Personlization Menu
@@ -55,12 +57,4 @@ Tools and Utilities for Windows 11 Desktop Context Menus
     </details>
 </div>
 
-#### Previews
-
-![DWM Blur Glass Menu][DWMBlurGlass_Preview] ![MicaForEveryone Menu][MicaForEveryone_Preview] ![Utilities Menu][Utilities_Preview] ![Tools - Classic Personalization Menu][ClassicPersonalization_Preview] ![Tools - Control Panel Menu][ControlPanel_Preview]
-
-[DWMBlurGlass_Preview]: Previews/DWM%20Blur%20Glass%20Menu.png
-[MicaForEveryone_Preview]: Previews/MicaForEveryone%20Menu.png
 [Utilities_Preview]: Previews/Utilities%20Menu.png
-[ClassicPersonalization_Preview]: Previews/Tools%20-%20Classic%20Personalization.png
-[ControlPanel_Preview]: Previews/Tools%20-%20Control%20Panel.png
