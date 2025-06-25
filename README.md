@@ -1,4 +1,4 @@
-Tools and Utilities for Windows 10 11 Desktop Context Menus
+Tools and Utilities for Windows 10 and 11 Desktop Context Menus
 ====================================    
 
 ### Tools Menu
