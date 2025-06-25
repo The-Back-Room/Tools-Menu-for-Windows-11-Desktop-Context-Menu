@@ -7,41 +7,22 @@ SET THUMBCACHE=%LOCALAPPDATA%\Microsoft\Windows\Explorer\thumbcache*
 MODE CON COLS=45 LINES=7
 COLOR 1F
 TITLE Applying
-
-IF ERRORLEVEL 1 (
-        GOTO FAILED
-) ELSE (
-        GOTO DELETE
-)
-
-:DELETE
-	ECHO :::::::::::::::::::::::::::::::::::::::::::::
-        ECHO ::          Refreshing Icon Cache          ::
-        ECHO :::::::::::::::::::::::::::::::::::::::::::::
-        ECHO.
-        TASKKILL /F /IM explorer.exe >NUL
-        ie4uinit.exe -show
-        TIMEOUT /T 2 >NUL
-        IF EXIST "%ICONCACHE%" DEL /A /F /Q "%ICONCACHE%" >NUL
-        IF EXIST "%ICONCACHE_X%" DEL /A /F /Q "%ICONCACHE_X%" >NUL
-        IF EXIST "%THUMBCACHE%" DEL /A /F /Q "%THUMBCACHE%" >NUL
-        START explorer.exe
-        GOTO SUCCESS
-:FAILED
-        ECHO :::::::::::::::::::::::::::::::::::::::::::::
-        ECHO ::                 Failed                  ::
-        ECHO :::::::::::::::::::::::::::::::::::::::::::::
-        ECHO.
-        TIMEOUT /T 5 >NUL
-        GOTO EXIT
-:SUCCESS
-        ECHO :::::::::::::::::::::::::::::::::::::::::::::
-        ECHO ::                Success                 ::
-        ECHO :::::::::::::::::::::::::::::::::::::::::::::
-        ECHO.
-        TIMEOUT /T 5 >NUL
-        GOTO EXIT
-:EXIT
-        ECHO You can now close this window. It will close automatically in 5 seconds.
-        TIMEOUT /T 5 >NUL
-        EXIT /B
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO ::          Refreshing Icon Cache          ::
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO.
+ECHO Attempting to delete IconCache and ThumbCache DB files...
+TASKKILL /F /IM explorer.exe >NUL
+ie4uinit.exe -show
+TIMEOUT /T 2 >NUL
+IF EXIST "%ICONCACHE%" DEL /A /F /Q "%ICONCACHE%" >NUL
+IF EXIST "%ICONCACHE_X%" DEL /A /F /Q "%ICONCACHE_X%" >NUL
+IF EXIST "%THUMBCACHE%" DEL /A /F /Q "%THUMBCACHE%" >NUL
+START explorer.exe >NUL
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO ::                Success                 ::
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO.
+ECHO You can now close this window. It will close automatically in 5 seconds.
+TIMEOUT /T 5 >NUL
+EXIT /B
