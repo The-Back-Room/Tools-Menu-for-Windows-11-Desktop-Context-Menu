@@ -3,7 +3,7 @@ mode CON COLS=45 LINES=7
 color 1F
 title Applying
 echo :::::::::::::::::::::::::::::::::::::::::::::
-echo ::          Stopping Safely Icon           ::
+echo ::        Stopping safelyicon.exe          ::
 echo :::::::::::::::::::::::::::::::::::::::::::::
 taskkill /f /im safelyicon.exe >nul
 echo :::::::::::::::::::::::::::::::::::::::::::::

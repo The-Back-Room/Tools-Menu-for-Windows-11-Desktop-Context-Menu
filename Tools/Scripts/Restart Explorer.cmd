@@ -3,7 +3,7 @@ mode CON COLS=45 LINES=7
 color 1F
 title Applying
 echo :::::::::::::::::::::::::::::::::::::::::::::
-echo ::           Restarting explorer           ::
+echo ::         Restarting explorer.exe         ::
 echo :::::::::::::::::::::::::::::::::::::::::::::
 echo.
 taskkill /F /IM explorer.exe >nul

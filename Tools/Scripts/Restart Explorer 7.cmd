@@ -6,9 +6,12 @@ mode CON COLS=45 LINES=7
 color 1F
 title Applying
 echo :::::::::::::::::::::::::::::::::::::::::::::
-echo ::          Restarting Explorer 7          ::
+echo ::         Switching explorer shell        ::
 echo :::::::::::::::::::::::::::::::::::::::::::::
 echo.
+echo Stopping exoplorer.exe and starting:
+echo - %INSTALL_DIR%\explorer.exe
+timeout /t 3 >nul
 taskkill /F /IM explorer.exe >nul
 start %INSTALL_DIR%\explorer.exe
 echo :::::::::::::::::::::::::::::::::::::::::::::
