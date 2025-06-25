@@ -2,7 +2,7 @@
     <h1>Tools and Utilities Context Menus</h1>
     <p>for Windows 10 and 11</p>
     <br />
-    <img src="Previews/c25EEQZmeQ.png" width="45%"> <img src="Previews/jgrycwDiQ8.png" width="45%">
+    <img src="Previews/DWM Blur Glass Menu.png" width="45%"> <img src="Previews/MicaForEveryone Menu.png" width="45%"> <img src="Previews/Utilities Menu.png" width="45%"> <img src="Previews/Tools - Control Panel.png" width="45%"> <img src="Previews/Tools - Classic Personalization.png" width="45%"> <img src="Previews/Utilities Menu.png" width="45%">
 </div>
 
 ### Tools Menu
