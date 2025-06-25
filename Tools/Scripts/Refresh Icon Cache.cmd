@@ -1,34 +1,53 @@
 @ECHO OFF
-REM - End Apps & Services that MAY be using shell32.dll....
-cd\
-taskkill /f /IM explorer.exe
-taskkill /f /IM nvvsvc.exe
-taskkill /f /IM WLIDSVCM.EXE
-taskkill /f /IM dllhost.exe
-REM Stopping Software Protection Services
-NET stop "Software Protection" /y
-NET STOP SuperFetch
-SET FILE98=*.db
-SET PATH98=%SYSTEMDRIVE%\Users\%USERNAME%\AppData\Local\Microsoft\Windows\Explorer\
-SET FILE99=IconCache.db
-SET PATH99=%SYSTEMDRIVE%\Users\%USERNAME%\AppData\Local
-REM - Delete the IconCache.db and thumbnail caches...
-CD /d %userprofile%\AppData\Local
-DEL IconCache.db /a
-IF EXIST %FILE99% (
-        attrib -H "%PATH99%\%FILE99%"
-	del "%PATH99%\%FILE99%" )
-IF EXIST %FILE98% (
-        attrib -H "%PATH98%\%FILE98%"
-	del "%PATH98%\%FILE98%" )
-IF EXIST IconCache.db (
-DEL IconCache.db /a )
-CD /d %userprofile%\AppData\Local\Microsoft\Windows
-del /f /s /q Explorer\*.*
-del /f /s /q Explorer\iconcache*.*
-del /f /s /q Explorer\thumbcache*.*
-DEL /f /s /q Explorer\thumbcache*.* /a
-REM Start Software Protection
-NET START "Software Protection"
-START %windir%\"explorer.exe"
-EXIT
+
+SET ICONCACHE=%LOCALAPPDATA%\IconCache.db
+SET ICONCACHE_X=%LOCALAPPDATA%\Microsoft\Windows\Explorer\iconcache*
+SET THUMBCACHE=%LOCALAPPDATA%\Microsoft\Windows\Explorer\thumbcache*
+
+COLOR 1F
+TITLE Applying
+
+IF EXIST "%THUMBCACHE%" GOTO DELETE
+ECHO.
+ECHO The %LOCALAPPDATA%\Microsoft\Windows\Explorer\thumbcache*.db files have already been deleted
+ECHO.
+IF EXIST "%ICONCACHE_X%" GOTO DELETE
+ECHO.
+ECHO The %LOCALAPPDATA%\Microsoft\Windows\Explorer\iconcache_*.db files have already been deleted
+ECHO.
+IF EXIST "%ICONCACHE%" GOTO DELETE
+ECHO.
+ECHO The %LOCALAPPDATA%\IconCache.db file has already been deleted
+ECHO.
+
+GOTO EXIT
+
+:DELETE
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO ::          Refreshing Icon Cache          ::
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO.
+ECHO Attempting to delete IconCache and ThumbCache db files ...
+TASKKILL /F /IM explorer.exe >NUL
+ie4uinit.exe -show
+TIMEOUT /T 2 >NUL
+DEL /A /F "%ICONCACHE%" >NUL
+DEL /A /F /Q "%ICONCACHE_X%" >NUL
+DEL /A /F /Q "%THUMBCACHE%" >NUL
+START explorer.exe
+GOTO SUCCESS
+
+:SUCCESS
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO ::                Success                 ::
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO.
+ECHO Successfully deleted the IconCache and ThumbCache db files
+GOTO EXIT
+
+:EXIT
+ECHO.
+ECHO You can now close this window. It will close automatically in 5 seconds.
+ECHO.
+TIMEOUT /T 5 >NUL
+EXIT /B
