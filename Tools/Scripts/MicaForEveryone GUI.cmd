@@ -1,32 +1,31 @@
-@echo off
-mode CON COLS=45 LINES=7
-mode CON COLS=45 LINES=7
-color 1F
+@ECHO off
+MODE CON COLS=45 LINES=7
+COLOR 1F
 wmic process where "name='MicaForEveryone.App.exe'" get ProcessID | find /i "ProcessId" > nul
 
 IF ERRORLEVEL 1 (
 	GOTO FAILED
 )
-	
+
 IF ERRORLEVEL 2 (
-	start /min MicaForEveryone
+	START /min MicaForEveryone
 	GOTO SUCCESS
 )
 
 :SUCCESS
-	echo :::::::::::::::::::::::::::::::::::::::::::::
-	echo ::                Success                  ::
-	echo :::::::::::::::::::::::::::::::::::::::::::::
+	ECHO :::::::::::::::::::::::::::::::::::::::::::::
+	ECHO ::                Success                  ::
+	ECHO :::::::::::::::::::::::::::::::::::::::::::::
 	GOTO EXIT
 
 :FAILED
-	echo :::::::::::::::::::::::::::::::::::::::::::::
-	echo ::        No instance(s) detected          ::
-	echo :::::::::::::::::::::::::::::::::::::::::::::
+	ECHO :::::::::::::::::::::::::::::::::::::::::::::
+	ECHO ::        No instance(s) detected          ::
+	ECHO :::::::::::::::::::::::::::::::::::::::::::::
 	GOTO EXIT
 
 :EXIT
-	echo.
-	echo You can now close this window. It will close automatically in 5 seconds.
-	timeout /t 5 >nul
+	ECHO.
+	ECHO You can now close this window. It will close automatically in 5 seconds.
+	TIMEOUT /T 5 >NUL
 	EXIT

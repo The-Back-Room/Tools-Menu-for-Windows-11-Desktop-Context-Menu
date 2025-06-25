@@ -1,15 +1,15 @@
-@echo off
-mode CON COLS=45 LINES=7
-color 1F
-title Applying
-echo :::::::::::::::::::::::::::::::::::::::::::::
-echo ::        Starting MicaForEveryone         ::
-echo :::::::::::::::::::::::::::::::::::::::::::::
+@ECHO off
+MODE CON COLS=45 LINES=7
+COLOR 1F
+TITLE Applying
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO ::        Starting MicaForEveryone         ::
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
 start /min MicaForEveryone
-echo :::::::::::::::::::::::::::::::::::::::::::::
-echo ::                 Success                 ::
-echo :::::::::::::::::::::::::::::::::::::::::::::
-echo.
-echo You can now close this window. It will close automatically in 5 seconds.
-timeout /t 5 >nul
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO ::                 Success                 ::
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO.
+ECHO You can now close this window. It will close automatically in 5 seconds.
+TIMEOUT /T 5 >NUL
 EXIT

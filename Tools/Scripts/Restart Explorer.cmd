@@ -1,17 +1,17 @@
-@echo off
-mode CON COLS=45 LINES=7
-color 1F
-title Applying
-echo :::::::::::::::::::::::::::::::::::::::::::::
-echo ::         Restarting explorer.exe         ::
-echo :::::::::::::::::::::::::::::::::::::::::::::
-echo.
-taskkill /F /IM explorer.exe >nul
+@ECHO off
+MODE CON COLS=45 LINES=7
+COLOR 1F
+TITLE Applying
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO ::         Restarting explorer.exe         ::
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO.
+TASKKILL /F /IM explorer.exe >NUL
 start explorer.exe
-echo :::::::::::::::::::::::::::::::::::::::::::::
-echo ::                Success                 ::
-echo :::::::::::::::::::::::::::::::::::::::::::::
-echo.
-echo You can now close this window. It will close automatically in 5 seconds.
-timeout /t 5 >nul
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO ::                Success                 ::
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO.
+ECHO You can now close this window. It will close automatically in 5 seconds.
+TIMEOUT /T 5 >NUL
 EXIT

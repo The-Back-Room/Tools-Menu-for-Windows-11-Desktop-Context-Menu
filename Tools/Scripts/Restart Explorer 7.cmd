@@ -1,23 +1,23 @@
-@echo off
+@ECHO off
 
 set INSTALL_DIR=C:\Tools\Explorer7
 
-mode CON COLS=45 LINES=7
-color 1F
-title Applying
-echo :::::::::::::::::::::::::::::::::::::::::::::
-echo ::         Switching explorer shell        ::
-echo :::::::::::::::::::::::::::::::::::::::::::::
-echo.
-echo Stopping exoplorer.exe and starting:
-echo - %INSTALL_DIR%\explorer.exe
-timeout /t 5 >nul
-taskkill /f /im explorer.exe >nul
+MODE CON COLS=45 LINES=7
+COLOR 1F
+TITLE Applying
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO ::         Switching explorer shell        ::
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO.
+ECHO Stopping exoplorer.exe and starting:
+ECHO - %INSTALL_DIR%\explorer.exe
+TIMEOUT /T 5 >NUL
+TASKKILL /F /IM explorer.exe >NUL
 start %INSTALL_DIR%\explorer.exe
-echo :::::::::::::::::::::::::::::::::::::::::::::
-echo ::                Success                 ::
-echo :::::::::::::::::::::::::::::::::::::::::::::
-echo.
-echo You can now close this window. It will close automatically in 5 seconds.
-timeout /t 5 >nul
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO ::                Success                 ::
+ECHO :::::::::::::::::::::::::::::::::::::::::::::
+ECHO.
+ECHO You can now close this window. It will close automatically in 5 seconds.
+TIMEOUT /T 5 >NUL
 EXIT
