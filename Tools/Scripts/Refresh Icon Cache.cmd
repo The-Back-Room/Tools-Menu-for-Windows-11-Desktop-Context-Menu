@@ -13,6 +13,7 @@ ECHO :::::::::::::::::::::::::::::::::::::::::::::
 ECHO.
 ECHO Attempting to delete IconCache and ThumbCache DB files...
 TASKKILL /F /IM explorer.exe >NUL
+TASKKILL /F /IM dllhost.exe >NUL
 ie4uinit.exe -show
 TIMEOUT /T 2 >NUL
 IF EXIST "%ICONCACHE%" DEL /A /F /Q "%ICONCACHE%" >NUL
