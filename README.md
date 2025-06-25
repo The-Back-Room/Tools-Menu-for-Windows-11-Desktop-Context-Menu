@@ -1,9 +1,5 @@
-<div align="center">
-    <h1>Tools and Utilities Context Menus</h1>
-    <p>for Windows 10 and 11</p>
-    <br />
-    <img src="Previews/DWM Blur Glass Menu.png" width="45%"> <img src="Previews/MicaForEveryone Menu.png" width="45%"> <img src="Previews/Utilities Menu.png" width="45%"> <img src="Previews/Tools - Control Panel.png" width="45%"> <img src="Previews/Tools - Classic Personalization.png" width="45%"> <img src="Previews/Utilities Menu.png" width="45%">
-</div>
+Tools and Utilities for Windows 10 11 Desktop Context Menus
+====================================    
 
 ### Tools Menu
 
@@ -28,6 +24,7 @@
 ### Utilities Menu
 
 - Kill Not Responding Tasks
+- Kill Safely Icon | Addon
 - Refresh Icon Cache
 - Restart Explorer
 - Restart Explorer 7 | Addon
@@ -57,3 +54,13 @@
         <br /><br />Due to Windows context menu limitations, addons may remove entrees from some of the sub menus in order to make space.</em>
     </details>
 </div>
+
+#### Previews
+
+![DWM Blur Glass Menu][DWMBlurGlass_Preview] ![MicaForEveryone Menu][MicaForEveryone_Preview] ![Utilities Menu][Utilities_Preview] ![Tools - Classic Personalization Menu][ClassicPersonalization_Preview] ![Tools - Control Panel Menu][ControlPanel_Preview]
+
+[DWMBlurGlass_Preview]: Previews/DWM%20Blur%20Glass%20Menu.png
+[MicaForEveryone_Preview]: Previews/MicaForEveryone%20Menu.png
+[Utilities_Preview]: Previews/Utilities%20Menu.png
+[ClassicPersonalization_Preview]: Previews/Tools%20-%20Classic%20Personalization.png
+[ControlPanel_Preview]: Previews/Tools%20-%20Control%20Panel.png
