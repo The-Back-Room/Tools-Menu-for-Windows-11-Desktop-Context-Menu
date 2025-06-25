@@ -15,36 +15,33 @@ IF ERRORLEVEL 1 (
 )
 
 :DELETE
-	ECHO ::::::::::::::::::::::::::::::::::::::::::::: 
+	ECHO :::::::::::::::::::::::::::::::::::::::::::::
         ECHO ::          Refreshing Icon Cache          ::
-        ECHO ::::::::::::::::::::::::::::::::::::::::::::: 
+        ECHO :::::::::::::::::::::::::::::::::::::::::::::
         ECHO.
-        ECHO Attempting to delete IconCache and ThumbCache db files ...
         TASKKILL /F /IM explorer.exe >NUL
         ie4uinit.exe -show
         TIMEOUT /T 2 >NUL
-        DEL /A /F "%ICONCACHE%" >NUL
+        DEL /A /F /Q "%ICONCACHE%" >NUL
         DEL /A /F /Q "%ICONCACHE_X%" >NUL
         DEL /A /F /Q "%THUMBCACHE%" >NUL
         START explorer.exe
         GOTO SUCCESS
-
 :FAILED
         ECHO :::::::::::::::::::::::::::::::::::::::::::::
         ECHO ::                 Failed                  ::
         ECHO :::::::::::::::::::::::::::::::::::::::::::::
+        ECHO.
         TIMEOUT /T 5 >NUL
         GOTO EXIT
-
 :SUCCESS
         ECHO :::::::::::::::::::::::::::::::::::::::::::::
         ECHO ::                Success                 ::
         ECHO :::::::::::::::::::::::::::::::::::::::::::::
+        ECHO.
         TIMEOUT /T 5 >NUL
         GOTO EXIT
-
 :EXIT
-        ECHO.
         ECHO You can now close this window. It will close automatically in 5 seconds.
         TIMEOUT /T 5 >NUL
         EXIT /B
