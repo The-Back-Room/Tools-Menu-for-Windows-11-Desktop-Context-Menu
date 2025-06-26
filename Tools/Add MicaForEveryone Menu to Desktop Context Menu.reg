@@ -7,21 +7,12 @@ Windows Registry Editor Version 5.00
 "SubCommands"=""
 "Extended"=-
 
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\MicaForEveryone\Shell\GUI]
-"Icon"="themecpl.dll"
-"MUIVerb"="GUI"
-"Position"="Top"
-
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\MicaForEveryone\Shell\GUI\command]
-@="\"C:\\Tools\\Scripts\\MicaForEveryone GUI.cmd\""
-
 [HKEY_CLASSES_ROOT\DesktopBackground\Shell\MicaForEveryone\Shell\Start]
 "Icon"="themecpl.dll"
 "MUIVerb"="Start"
-"CommandFlags"=dword:00000020
 
 [HKEY_CLASSES_ROOT\DesktopBackground\Shell\MicaForEveryone\Shell\Start\command]
-@="\"C:\\Tools\\Scripts\\Stop MicaForEveryone.cmd\""
+@="\"C:\\Tools\\Scripts\\Start MicaForEveryone.cmd\""
 
 [HKEY_CLASSES_ROOT\DesktopBackground\Shell\MicaForEveryone\Shell\Stop]
 "Icon"="themecpl.dll"

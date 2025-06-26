@@ -1,13 +1,11 @@
-@ECHO off
+@ECHO OFF
 MODE CON COLS=45 LINES=7
 COLOR 1F
-wmic process where "name='MicaForEveryone.App.exe'" get ProcessID | find /i "ProcessId" > nul
+WMIC process WHERE "name='MicaForEveryone.App.exe'" get ProcessID | FIND /i "ProcessId" >NUL
 
 IF ERRORLEVEL 1 (
 	GOTO FAILED
-)
-
-IF ERRORLEVEL 2 (
+) ELSE (
 	START /min MicaForEveryone
 	GOTO SUCCESS
 )
